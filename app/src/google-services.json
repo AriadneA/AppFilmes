@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "630392529495",
+    "project_id": "projetokidsflix2ai",
+    "storage_bucket": "projetokidsflix2ai.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630392529495:android:9391e437d11b80ec853912",
+        "android_client_info": {
+          "package_name": "com.example.kidsflix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "630392529495-iqne461kvjduhc275rlaak47ihu1q8l7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kidsflix",
+            "certificate_hash": "414689b4915fcb9620dcf7e6c3fb20e4a8a6f8fd"
+          }
+        },
+        {
+          "client_id": "630392529495-kbeib26q716odvpcf4e4nlmp646vs3vm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9XEGFihTmgAsndgESvGNICXphPmIoX-k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "630392529495-kbeib26q716odvpcf4e4nlmp646vs3vm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

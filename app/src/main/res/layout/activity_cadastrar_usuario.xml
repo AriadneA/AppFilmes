@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e9ff70"
+    tools:context=".view.CadastrarUsuarioActivity">
+
+
+    <TextView
+        android:id="@+id/txtcadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastra-se:"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:fontFamily="@font/amethysta"
+        android:textSize="30dp"
+        android:layout_marginTop="40dp"
+        android:textColor="#073b4c"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:counterEnabled="true"
+        app:counterMaxLength="30"
+        android:layout_marginTop="100dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtemail"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Digite seu email"
+            android:layout_gravity="center"
+            android:background="@drawable/custm_telaprincipal"
+            android:inputType="textEmailAddress"
+            android:gravity="center"
+            android:textColor="#073b4c"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/white"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtsenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Digite sua senha"
+            android:background="@drawable/custm_telaprincipal"
+            android:inputType="numberPassword"
+            android:gravity="center"
+            android:textColor="#073b4c"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btcadastrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cadastrar"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#affc41"
+            android:textColor="#073b4c"
+            />
+
+        <Button
+            android:id="@+id/btvoltarC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Voltar"
+            android:backgroundTint="#affc41"
+            android:textColor="#073b4c"
+            />
+    </LinearLayout>
+
+</LinearLayout>
